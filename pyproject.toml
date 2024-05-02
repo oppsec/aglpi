@@ -18,8 +18,8 @@ dependencies = ["requests>=2.31.0", "rich>=13.5.3", "beautifulsoup4>=4.12.3"]
 license = { file = "LICENSE" }
 
 [project.urls]
-Homepage = "https://github.com/oppsec/aGLPI"
-Issues = "https://github.com/oppsec/aGLPI/issues"
+Homepage = "https://github.com/oppsec/aglpi"
+Issues = "https://github.com/oppsec/aglpi/issues"
 
 [build-system]
 requires = ["setuptools"]
