@@ -24,7 +24,6 @@ def get_cookie(target) -> None:
         if(req.ok):
             console.print(f"[green][+][/] Connected to [yellow]{target}[/]", highlight=False)
             check_update(target)
-
         else:
             console.print(f"[red][-][/] Error when connecting to [yellow]{target}[/] - {status_code}", highlight=False)
             return
@@ -70,8 +69,7 @@ def extract_info(target) -> None:
 
     try:
         req = session.post(telemetry_path, verify=False, timeout=200)
-        resp = req.text
-        resp_bs = BeautifulSoup(resp, "html.parser")
+        resp_bs = BeautifulSoup(req.text, "html.parser")
         json_content = resp_bs.find('code', class_='language-json').text
         parsed_json = loads(json_content)
 

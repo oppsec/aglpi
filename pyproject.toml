@@ -1,6 +1,6 @@
 [project]
 name = "aglpi"
-version = "1.0.0"
+version = "1.0.1"
 authors = [{ name = "oppsec", email = "opps3c@gmail.com" }]
 description = "Against GLPI"
 readme = "README.md"

@@ -11,9 +11,9 @@ def menu() -> None:
     get_banner()
 
     parser = argparse.ArgumentParser(prog='aGLPI', description='against GLPI')
-    parser.add_argument('-t', '--target', required=True, help="Specify the URL to be used as target")
+    parser.add_argument('-u', '--url', required=True, help="Specify the URL to be used as target")
     args = parser.parse_args()
 
-    target = args.target
+    target = args.url
     
     get_cookie(target)

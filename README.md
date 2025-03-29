@@ -63,7 +63,7 @@ or
 <br>
 
 <h3> Preview usage </h3>
-<a href="https://asciinema.org/a/657502" target="_blank"><img src="https://asciinema.org/a/657502.svg" /></a>
+<img src="https://i.imgur.com/VVEUDxv.png">
 <br>
 
 <h3> Warning </h3>

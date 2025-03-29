@@ -1,5 +1,3 @@
-from json import loads
-
 from rich.console import Console
 console = Console()
 
@@ -19,5 +17,3 @@ def format_keys(content) -> None:
     for key, value in content.items():
         formatted_value = format_value(value)
         console.print(f"[green]{key}[/]:{formatted_value}", highlight=False)
-
-    #console.print(content)
